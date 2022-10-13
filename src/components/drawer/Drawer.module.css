@@ -1,0 +1,15 @@
+.optionWrap div {
+    font-family: "Poppins";
+    font-size: 20px;
+    background-color: #c6c6e5;
+    margin: 20px 0px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    color: #321750;
+}
+
+.optionWrap div:hover {
+    background-color: #321750;
+    color: #fff;
+    cursor: pointer;
+}

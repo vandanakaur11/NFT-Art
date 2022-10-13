@@ -1,0 +1,103 @@
+.wrapper {
+    /* background-color: aqua; */
+    padding: 10vh;
+}
+
+.wrapper h1 {
+    text-align: center;
+    /* font-family: "Courier New", Courier, monospace; */
+    font-family: "Poppins";
+    font-size: 40px;
+    color: #321750;
+}
+
+.wrapper h3 {
+    text-align: center;
+    /* font-family: "Courier New", Courier, monospace; */
+    font-family: "Poppins";
+    font-size: 22px;
+}
+
+.innerWrap {
+    margin: 5vh 15vw;
+    font-family: "Poppins";
+    /* font-family: "Courier New", Courier, monospace; */
+}
+
+.accordianWrap {
+    padding: 10px;
+    border: 1px solid #c6c6e5;
+    box-shadow: 1px 1px 1px 0px #c6c6e5;
+    border-radius: 5px;
+    margin: 2vh 0px;
+    background-image: linear-gradient(#fff0f5, #fff, #fff0f5);
+}
+.accordianWrap span {
+    margin-right: 10px;
+}
+.accordianWrap span:hover {
+    cursor: pointer;
+}
+
+.accordianHeading {
+    /* font-family: "Courier New", Courier, monospace; */
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0px;
+    color: #321750;
+}
+.accordianPara {
+    font-family: "Poppins";
+    /* font-family: "Courier New", Courier, monospace; */
+    font-size: 16px;
+    padding: 20px 40px;
+}
+
+@media (max-width: 1200px) {
+    .wrapper h1 {
+        font-size: 30px;
+    }
+    .wrapper h3 {
+        font-size: 18px;
+    }
+    .innerWrap h2 {
+        font-size: 20px;
+    }
+    .innerWrap {
+        margin: 5vh 8vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .innerWrap {
+        margin: 5vh 0vw;
+    }
+    .accordianHeading {
+        font-size: 15px;
+    }
+    .accordianPara {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 450px) {
+    .wrapper {
+        padding: 10vh 4vw;
+    }
+    .accordianHeading {
+        font-size: 14px;
+    }
+    .accordianWrap span {
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 400px) {
+    .accordianHeading {
+        font-size: 12px;
+    }
+    .accordianWrap span {
+        margin-right: 4px;
+    }
+}

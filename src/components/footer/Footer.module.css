@@ -1,0 +1,99 @@
+.footerWrap {
+    height: 25vh;
+    width: 100%;
+    background-image: linear-gradient(#321750, #202020);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5vh 0px;
+    padding-bottom: 6vh;
+}
+
+.innerWrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Logo {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    /* font-family: "Courier New", Courier, monospace; */
+    font-family: "Poppins";
+}
+
+.optionWrap {
+    display: flex;
+    width: 35vw;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: lighter;
+    /* font-family: "Courier New", Courier, monospace; */
+    font-family: "Poppins";
+    color: white;
+}
+.optionWrap div:hover {
+    cursor: pointer;
+    color: #9347ea;
+}
+
+.innerWrapBottom {
+    text-align: center;
+    margin: 0px 10vw;
+}
+.copyright {
+    font-size: 18px;
+    font-weight: lighter;
+    /* font-family: "Courier New", Courier, monospace; */
+    font-family: "Poppins";
+    color: white;
+}
+.text {
+    font-size: 14px;
+    font-weight: lighter;
+    /* font-family: "Courier New", Courier, monospace; */
+    font-family: "Poppins";
+    color: white;
+    margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+    .optionWrap {
+        width: 50%;
+        align-items: center;
+    }
+}
+
+@media (max-width: 750px) {
+    .footerWrap {
+        height: 200px;
+    }
+    .optionWrap {
+        width: 55%;
+        align-items: center;
+    }
+}
+
+@media (max-width: 550px) {
+    .optionWrap {
+        flex-direction: column;
+    }
+    .copyright {
+        margin: 20px 0px;
+    }
+}
+
+@media (max-width: 450px) {
+    .innerWrap {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .optionWrap {
+        margin: 20px auto;
+    }
+
+    .footerWrap {
+        height: auto;
+    }
+}

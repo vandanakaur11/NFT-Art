@@ -1,0 +1,100 @@
+.headerWrap {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(#321750, #202020);
+    position: fixed;
+    top: 0;
+}
+
+.Logo {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    /* font-family: "Courier New", Courier, monospace; */
+    font-family: "Poppins";
+}
+
+.Btn {
+    width: 40vw;
+
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+.Btn div {
+    color: white;
+    border: 1px solid white;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    /* font-family: "Courier New", Courier, monospace; */
+    font-family: "Poppins";
+    width: 185px;
+}
+.Btn div:hover {
+    background-color: #9347ea;
+
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.optionWrap {
+    color: white;
+    display: flex;
+    width: 35vw;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: lighter;
+    /* font-family: "Courier New", Courier, monospace; */
+    font-family: "Poppins";
+}
+.optionWrap div:hover {
+    cursor: pointer;
+    color: #9347ea;
+}
+.drawerWrap {
+    display: none;
+}
+
+@media (max-width: 1366px) {
+    .Btn {
+        width: 30vw;
+
+        display: flex;
+        justify-content: flex-end;
+    }
+    .Btn div {
+        color: white;
+        border: 1px solid white;
+        padding: 12px;
+        font-size: 16px;
+
+        width: 180px;
+    }
+    .optionWrap {
+        color: white;
+        display: flex;
+        width: 40vw;
+        justify-content: space-between;
+        font-size: 16px;
+    }
+    .headerWrap {
+        height: 120px;
+    }
+}
+
+@media (max-width: 950px) {
+    .Btn {
+        display: none;
+    }
+    .optionWrap {
+        display: none;
+    }
+    .drawerWrap {
+        display: block;
+    }
+}
